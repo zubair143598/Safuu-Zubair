@@ -1,0 +1,21 @@
+//Dashboard-section
+.dashbordcol
+{
+  a{
+    width: 10rem;
+  border-radius: 0px;
+    box-shadow: 0 0 14px 0 #36d63b;
+    border: 2px solid #36d63b;
+    background: linear-gradient(90deg,#024b05,#36d33b);
+}
+}
+.header{
+  display: none;
+}
+@media screen and (max-width: 600px) 
+{
+  .header
+  {
+    display:block !important;
+  }  
+}

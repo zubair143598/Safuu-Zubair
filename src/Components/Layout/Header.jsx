@@ -3,14 +3,25 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <nav className="navbar header   navbar-expand-lg bg-light">
-    <div className="container header">
-      <a className=" nav-link active" aria-current="page" href="#">
-        <img src="./Assists/headerLogo.png  " alt="" className="logo p-1 rounded  border" />
+    <nav className="navbar header sticky-top  navbar-expand-lg bg-black">
+      <div className="container header">
+      {/* offcanvas trigger */}
+      <button
+        className=" color navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample"
+      >
+       <span className="navbar-toggler-icon " /> 
+      </button>
+      {/* offcanvas trigger */}
+      <a style={{backgroundColor: "#36d33b"}} className="btn nav-link text-white fs-3 fw-bolder px-5 py-2 my-4 active" aria-current="page" href="#">
+        SAFUU
       </a>
 
       <button
-        className=" color header navbar-toggler"
+        className=" color  navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent"

@@ -1,3 +1,8 @@
+body
+{
+  background-color: black !important;
+}
+
 //Dashboard-section
 .dashbordcol
 {
@@ -18,4 +23,55 @@
   {
     display:block !important;
   }  
+}
+
+
+:root
+{
+  --offcanvas-with: 270px;
+  // --topNavbarHeight:62px;
+}
+
+.sidebar-nav
+{
+
+  // width: var(--offcanvas-with) !important;
+  width: 270px !important;
+}
+
+@media screen and (min-width: 992px) 
+{
+  .sidebar-nav
+  {
+    transform: none !important;
+    visibility: visible !important;
+    // top: var(--topNavbarHeight) !important;
+    // height: calc(100% - var(--topNavbarHeight)) !important;
+    // left: 48px;
+    top: 125px !important;
+    height: 100% !important;
+  }  
+}
+
+//Dashboard1-section
+// 
+.Dashboard1-section
+{
+  .iconcolor
+  {
+    color:#36d33b;
+    
+  }
+  .clr
+  {
+    background-color: #011A01;
+    color: white;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .listBorder
+  {
+    border: 2px solid #36d33b !important;
+  }
+  
 }

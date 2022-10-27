@@ -4,7 +4,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 
 const Dashboard = () => {
   return (
-    <nav className="navbar header   navbar-expand-lg bg-light">
+    <nav className="navbar   navbar-expand-lg bg-light">
       <div className="container-fluid">
         <div className="container  border border-success">
           {/* <div className="row"> */}
@@ -25,33 +25,36 @@ const Dashboard = () => {
             id="navbarSupportedContent"
           >
             <ul className="list-unstyled">
-              <li className="nav-item">
+                
+                     <li className="nav-item">
                 <img className="w-100" src="./Assists/safuu-logo.png" alt="" />
                 <br />
               </li>
+                    
+            
               <li className="nav-item">
                 
-                <a className="btn nav-link clr mt-3 px-4 py-3" href="">
+                <a className="btn rounded-3 nav-link clr mt-3 px-4 py-3" href="">
                   
                   <AiOutlineTable /> Dashbord
                 </a>
                 <br />
               </li>
               <li className="nav-item">
-                <a className="btn nav-link clr mt-3  px-4 py-3" href="">
+                <a className="btn  rounded-3 nav-link clr mt-3  px-4 py-3" href="">
                   <BsFillPersonFill /> Dashbord
                 </a>
                 <br />
               </li>
               <li className="">
-                <a className="btn  mt-3 px-4 py-3" href="">
+                <a className="btn rounded-3 mt-3 px-4 py-3" href="">
                   {" "}
                   Dashbord
                 </a>
                 <br />
               </li>
               <li className="nav-item">
-                <a className="btn  mt-3  px-4 py-3" href="">
+                <a className="btn  mt-3 rounded-3 px-4 py-3" href="">
                   
                   Dashbord
                 </a>
@@ -59,7 +62,7 @@ const Dashboard = () => {
                 <br />
               <li className="nav-item">
                 {" "}
-                <a className="btn  mt-3  px-4 py-3" href="">
+                <a className="btn  mt-3 rounded-3 px-4 py-3" href="">
                   {" "}
                   Dashbord
                 </a>
@@ -67,7 +70,7 @@ const Dashboard = () => {
               </li>
               <li className="nav-item">
                 {" "}
-                <a className="btn  mt-3 mb-5 px-4 py-3" href="">
+                <a className="btn  rounded-3 mt-3 mb-5 px-4 py-3" href="">
                   {" "}
                   Dashbord
                 </a>

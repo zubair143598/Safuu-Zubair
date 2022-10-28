@@ -1,6 +1,41 @@
 body
 {
-  background-color: black !important;
+  background-image: url(./Media/bg.png);
+}
+
+// scrollbar
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #024b05;
+}
+::-webkit-scrollbar-track{
+  background-color: black;
+}
+
+.navborder
+{
+  border-bottom: 2px solid #36d33b !important;
+  
+}
+
+//hero border
+.compborder
+{
+  border: 2px solid #36d33b;
+}
+
+@media only screen and (max-width: 600px) 
+{
+  .btn1
+  {
+    display: none;
+  }
+}
+.btn2
+{
+  background: linear-gradient(90deg,#024b05,#36d33b);
 }
 
 //Dashboard-section
@@ -29,13 +64,13 @@ body
 :root
 {
   --offcanvas-with: 270px;
-  // --topNavbarHeight:62px;
+  --topNavbarHeight:127px;
 }
 
 .sidebar-nav
 {
 
-  // width: var(--offcanvas-with) !important;
+  width: var(--offcanvas-with) !important;
   width: 270px !important;
 }
 
@@ -45,22 +80,33 @@ body
   {
     transform: none !important;
     visibility: visible !important;
-    // top: var(--topNavbarHeight) !important;
-    // height: calc(100% - var(--topNavbarHeight)) !important;
+    top: var(--topNavbarHeight) !important;
+    height: calc(100% - var(--topNavbarHeight)) !important;
     // left: 48px;
-    top: 125px !important;
-    height: 100% !important;
+    // top: 125px !important;
+    // height: 100% !important;
   }  
 }
 
 //Dashboard1-section
 // 
+
 .Dashboard1-section
 {
+  .offcanvas-body{
+    height: 80vh;
+  overflow-y: scroll;
+  }
   .iconcolor
   {
     color:#36d33b;
     
+  }
+  .clr:focus
+  {
+    background: linear-gradient(90deg,#024b05,#36d33b);
+    border: 2px solid (#024b05,#36d33b) !important ;
+
   }
   .clr
   {
@@ -74,4 +120,15 @@ body
     border: 2px solid #36d33b !important;
   }
   
+}
+
+//Swap-section
+.Swap-section
+{
+  .iconcolor
+  {
+    color: white !important;
+    // border: 2px solid white;
+    // background-color: white;
+  }
 }
